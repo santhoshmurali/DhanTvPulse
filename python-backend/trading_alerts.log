@@ -1,0 +1,85 @@
+2025-09-25 21:18:31,779 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-09-25 21:18:31,779 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-25 21:18:31,780 - INFO -  * Restarting with stat
+2025-09-25 21:18:31,993 - WARNING -  * Debugger is active!
+2025-09-25 21:18:31,998 - INFO -  * Debugger PIN: 123-020-901
+2025-09-25 21:20:29,045 - INFO - 127.0.0.1 - - [25/Sep/2025 21:20:29] "GET /status HTTP/1.1" 200 -
+2025-09-25 21:20:31,083 - INFO - New Alert Received: {'ALERTNAME': 'NEW BUY ORDER', 'symbol': 'NIFTY250930P25800', 'limit_price': '25800', 'capital_percent': '50', 'lot_size': '75', 'order_slicing_value': '1800', 'timestamp': '2025-09-25 21:20:31', 'processed': False}
+2025-09-25 21:20:37,062 - INFO - 127.0.0.1 - - [25/Sep/2025 21:20:37] "POST /webhook HTTP/1.1" 200 -
+2025-09-25 21:20:40,099 - INFO - New Alert Received: {'ALERTNAME': 'PROFT BOOKING SELL', 'symbol': 'NIFTY250930P25800', 'limit_price': '27090', 'lot_size': '75', 'order_slicing_value': '1800', 'timestamp': '2025-09-25 21:20:40', 'processed': False}
+2025-09-25 21:20:40,100 - INFO - 127.0.0.1 - - [25/Sep/2025 21:20:40] "POST /webhook HTTP/1.1" 200 -
+2025-09-25 21:20:43,142 - INFO - New Alert Received: {'ALERTNAME': 'LOSS BOOKING SELL', 'symbol': 'NIFTY250930P25800', 'limit_price': '21930', 'lot_size': '75', 'order_slicing_value': '1800', 'timestamp': '2025-09-25 21:20:43', 'processed': False}
+2025-09-25 21:20:43,143 - INFO - 127.0.0.1 - - [25/Sep/2025 21:20:43] "POST /webhook HTTP/1.1" 200 -
+2025-09-25 21:20:45,187 - INFO - 127.0.0.1 - - [25/Sep/2025 21:20:45] "GET /alerts HTTP/1.1" 200 -
+2025-09-25 22:26:58,706 - INFO -  * Detected change in 'D:\\Work\\Repository\\DhanTvPulse\\python-backend\\webhook_listener.py', reloading
+2025-09-25 22:26:58,738 - INFO -  * Restarting with stat
+2025-09-25 22:26:58,969 - WARNING -  * Debugger is active!
+2025-09-25 22:26:58,973 - INFO -  * Debugger PIN: 123-020-901
+2025-09-25 22:27:13,002 - INFO -  * Detected change in 'D:\\Work\\Repository\\DhanTvPulse\\python-backend\\test_webhook.py', reloading
+2025-09-25 22:27:13,035 - INFO -  * Restarting with stat
+2025-09-25 22:27:13,250 - WARNING -  * Debugger is active!
+2025-09-25 22:27:13,255 - INFO -  * Debugger PIN: 123-020-901
+2025-09-25 23:07:27,839 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-09-25 23:07:27,840 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-25 23:07:27,841 - INFO -  * Restarting with stat
+2025-09-25 23:07:28,047 - WARNING -  * Debugger is active!
+2025-09-25 23:07:28,051 - INFO -  * Debugger PIN: 123-020-901
+2025-09-25 23:08:00,189 - INFO - 127.0.0.1 - - [25/Sep/2025 23:08:00] "GET /status HTTP/1.1" 200 -
+2025-09-25 23:08:02,220 - INFO - New Alert Received: {'ALERTNAME': 'NEW BUY ORDER', 'symbol': 'NIFTY250930P25800', 'limit_price': '25800', 'capital_percent': '50', 'lot_size': '75', 'order_slicing_value': '1800', 'timestamp': '2025-09-25 23:08:02', 'processed': False}
+2025-09-25 23:08:02,221 - INFO - 127.0.0.1 - - [25/Sep/2025 23:08:02] "POST /webhook HTTP/1.1" 200 -
+2025-09-25 23:08:05,259 - INFO - New Alert Received: {'ALERTNAME': 'PROFT BOOKING SELL', 'symbol': 'NIFTY250930P25800', 'limit_price': '27090', 'lot_size': '75', 'order_slicing_value': '1800', 'timestamp': '2025-09-25 23:08:05', 'processed': False}
+2025-09-25 23:08:05,260 - INFO - 127.0.0.1 - - [25/Sep/2025 23:08:05] "POST /webhook HTTP/1.1" 200 -
+2025-09-25 23:08:08,286 - INFO - New Alert Received: {'ALERTNAME': 'LOSS BOOKING SELL', 'symbol': 'NIFTY250930P25800', 'limit_price': '21930', 'lot_size': '75', 'order_slicing_value': '1800', 'timestamp': '2025-09-25 23:08:08', 'processed': False}
+2025-09-25 23:08:08,287 - INFO - 127.0.0.1 - - [25/Sep/2025 23:08:08] "POST /webhook HTTP/1.1" 200 -
+2025-09-25 23:08:10,315 - INFO - 127.0.0.1 - - [25/Sep/2025 23:08:10] "GET /alerts HTTP/1.1" 200 -
+2025-09-25 23:08:12,342 - INFO - 127.0.0.1 - - [25/Sep/2025 23:08:12] "GET /status HTTP/1.1" 200 -
+2025-09-25 23:08:14,367 - INFO - 127.0.0.1 - - [25/Sep/2025 23:08:14] "GET /alerts HTTP/1.1" 200 -
+2025-09-25 23:08:16,394 - INFO - 127.0.0.1 - - [25/Sep/2025 23:08:16] "GET /alerts?count=5 HTTP/1.1" 200 -
+2025-09-25 23:08:18,422 - INFO - New Alert Received: {'ALERTNAME': 'TEST ALERT', 'symbol': 'NIFTY250930P25800', 'limit_price': '25800', 'capital_percent': '50', 'lot_size': '75', 'order_slicing_value': '1800', 'test_mode': True, 'timestamp': '2025-09-25 23:08:18', 'processed': False}
+2025-09-25 23:08:18,423 - INFO - 127.0.0.1 - - [25/Sep/2025 23:08:18] "POST /test HTTP/1.1" 200 -
+2025-09-25 23:08:20,449 - INFO - 127.0.0.1 - - [25/Sep/2025 23:08:20] "GET /status HTTP/1.1" 200 -
+2025-09-25 23:08:22,479 - INFO - New Alert Received: {'ALERTNAME': 'NEW BUY ORDER', 'symbol': 'NIFTY250930P25800', 'limit_price': '25800', 'capital_percent': '50', 'lot_size': '75', 'order_slicing_value': '1800', 'timestamp': '2025-09-25 23:08:22', 'processed': False}
+2025-09-25 23:08:22,480 - INFO - 127.0.0.1 - - [25/Sep/2025 23:08:22] "POST /webhook HTTP/1.1" 200 -
+2025-09-25 23:08:25,507 - INFO - New Alert Received: {'ALERTNAME': 'PROFT BOOKING SELL', 'symbol': 'NIFTY250930P25800', 'limit_price': '27090', 'lot_size': '75', 'order_slicing_value': '1800', 'timestamp': '2025-09-25 23:08:25', 'processed': False}
+2025-09-25 23:08:25,508 - INFO - 127.0.0.1 - - [25/Sep/2025 23:08:25] "POST /webhook HTTP/1.1" 200 -
+2025-09-25 23:08:28,554 - INFO - New Alert Received: {'ALERTNAME': 'LOSS BOOKING SELL', 'symbol': 'NIFTY250930P25800', 'limit_price': '21930', 'lot_size': '75', 'order_slicing_value': '1800', 'timestamp': '2025-09-25 23:08:28', 'processed': False}
+2025-09-25 23:08:28,555 - INFO - 127.0.0.1 - - [25/Sep/2025 23:08:28] "POST /webhook HTTP/1.1" 200 -
+2025-09-25 23:08:30,576 - INFO - 127.0.0.1 - - [25/Sep/2025 23:08:30] "GET /alerts HTTP/1.1" 200 -
+2025-09-25 23:10:12,292 - INFO -  * Detected change in 'D:\\Work\\Repository\\DhanTvPulse\\python-backend\\webhook_listener.py', reloading
+2025-09-25 23:10:12,363 - INFO -  * Restarting with stat
+2025-09-25 23:10:12,596 - WARNING -  * Debugger is active!
+2025-09-25 23:10:12,601 - INFO -  * Debugger PIN: 123-020-901
+2025-09-26 11:08:46,695 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-09-26 11:08:46,706 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 11:08:46,708 - INFO -  * Restarting with stat
+2025-09-26 11:08:46,928 - WARNING -  * Debugger is active!
+2025-09-26 11:08:46,933 - INFO -  * Debugger PIN: 123-020-901
+2025-09-26 11:22:13,996 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-09-26 11:22:13,997 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 11:22:13,998 - INFO -  * Restarting with stat
+2025-09-26 11:22:14,215 - WARNING -  * Debugger is active!
+2025-09-26 11:22:14,219 - INFO -  * Debugger PIN: 123-020-901
+2025-09-26 11:34:10,231 - INFO -  * Detected change in 'D:\\Work\\Repository\\DhanTvPulse\\python-backend\\webhook_port80.py', reloading
+2025-09-26 11:34:10,260 - INFO -  * Restarting with stat
+2025-09-26 11:34:10,511 - WARNING -  * Debugger is active!
+2025-09-26 11:34:10,515 - INFO -  * Debugger PIN: 123-020-901
+2025-09-26 11:34:17,437 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.1.2:80
+2025-09-26 11:34:17,438 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 11:34:17,439 - INFO -  * Restarting with stat
+2025-09-26 11:34:17,651 - WARNING -  * Debugger is active!
+2025-09-26 11:34:17,655 - INFO -  * Debugger PIN: 123-020-901

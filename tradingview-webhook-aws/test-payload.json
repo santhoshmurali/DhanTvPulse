@@ -1,0 +1,8 @@
+{
+  "httpMethod": "POST",
+  "path": "/test",
+  "body": "{'test': true}",
+  "headers": {
+    "Content-Type": "application/json"
+  }
+}

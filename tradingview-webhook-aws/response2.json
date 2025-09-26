@@ -1,0 +1,1 @@
+{"statusCode": 404, "headers": {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"}, "body": "{\"error\": true, \"message\": \"Endpoint not found\", \"timestamp\": \"2025-09-26T11:34:05.402411Z\"}"}
